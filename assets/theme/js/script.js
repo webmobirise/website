@@ -1,4 +1,15 @@
-!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.info">Mobirise</a> Mobirise v4.3.0';document.body.insertBefore(a,document.body.childNodes[0])}}();
+!function() {
+    try {
+        document.getElementsByClassName('engine')[0].getElementsByTagName('a')[0].removeAttribute('rel');
+    } catch (err) {}
+    if (!document.getElementById('top-1')) {
+        var e = document.createElement("section");
+        e.id = "top-1";
+        e.className = "engine";
+        e.innerHTML = '<a href="https://mobirise.info">Mobirise</a> Mobirise v4.4.1';
+        document.body.insertBefore(e, document.body.childNodes[0]);
+    }
+}();
 (function($) {
 
     var isBuilder = $('html').hasClass('is-builder');
